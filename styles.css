@@ -1,0 +1,545 @@
+body{
+    font-family:"Source Sans 3", serif;
+    margin: 0%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding:0% ;
+}
+   
+ul{
+    list-style: none;
+}
+
+   
+.landing{
+    width: 100%;
+    height: 100vh;
+    background-image:url(img/slider-02.jpg);
+    background-position: center center;
+}
+
+.layer {
+    width: 100%;
+    height: 100vb;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+    position: sticky;
+    
+}
+.nav .logo {
+    font-size: 30px ;
+    font-weight: 700;
+    color: rgb(209, 52, 65);
+    letter-spacing: 4px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+.nav .ul li{
+    margin-right: 8px;
+    color:rgb(209, 52, 65); 
+    
+}
+
+.nav ul li a {
+    color: antiquewhite;
+    font-size: 18px ;
+    font-weight: 500;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+.nav ul li a:hover{
+    color: rgb(209, 52, 65);
+    
+}
+.landing-content{
+width: 80%;
+margin: auto;
+text-align: center;
+margin-top: 150px;
+
+}
+.landing-logo{
+    color: rgb(209, 52, 65);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800px;
+    margin: 0%;
+}
+
+.para,.para2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 0%;
+    font-weight: bold;
+
+
+}
+.para2::after{
+    content:"!";
+    animation-name:typing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+    3% {
+        content: " De";
+    }
+    6% {
+        content: " Des";
+    }
+    
+    9% {
+        content: " Desi";
+    }
+    12% {
+        content: " Desig";
+    }
+    15% {
+        content: " Design";
+    }
+    18% {
+        content: " Designe";
+    }
+    21% {
+        content: " Designer";
+    }
+    22% {
+        content: " Designers";
+    }
+    23% {
+        content: " Designer";
+    }
+    26% {
+        content: " Designe";
+    }
+    29% {
+        content: " Design";
+    }
+
+    32% {
+        content: " Desig";
+    }
+
+    35% {
+        content: " Desi";
+    }
+    38% {
+        content: " Des";
+    }
+
+    41% {
+        content: " De";
+    }
+    44% {
+        content: " D";
+    }
+
+    47% {
+        content: " De";
+    }
+    50% {
+        content: " Dev";
+    }
+
+    53% {
+        content: " Deve";
+    }
+    56% {
+        content: " Develo";
+    }
+    59% {
+        content: " Develop";
+    }
+
+    62% {
+        content: " Develope";
+    }
+    65% {
+        content: " Developer";
+    }
+    
+    68% {
+        content: " Develope";
+    }
+
+    71% {
+        content: " Develop";
+    }
+    74% {
+        content: " Devel";
+    }
+    77% {
+        content: " Deve";
+    }
+    
+    80% {
+        content: " Dev";
+    }
+    83% {
+        content: " De";
+    }
+    86% {
+        content: " D";
+    }
+
+}
+   
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px 20px;
+}
+.containe {
+display: flex;
+align-items: center;
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.image-box {
+position: relative;
+margin-right: 20px;
+}
+.image-box img {
+width: 180px;
+height: 180px;
+border-radius: 10px;
+object-fit: cover;
+}
+.content {
+max-width: 350px;
+}
+.content h1 {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.content p {
+font-size: 14px;
+color: #666;
+margin-bottom: 15px;
+}
+.info {
+font-size: 14px;
+margin-bottom: 10px;
+}
+.info span {
+font-weight: bold;
+color: #333;
+}
+.buttons {
+display: flex;
+gap: 10px;
+}
+.buttons button {
+padding: 8px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 14px;
+}
+.download {
+background-color: #ff3b3b;
+color: white;
+}
+.hire {
+background-color: #333;
+color: white;
+}
+.download:hover {
+background-color: #d32f2f;
+}
+.hire:hover {
+background-color: #222;
+}
+.services-container {
+    max-width: 1200px;
+    margin: auto;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.underline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.underline div {
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    margin: 5px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.service {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+.service h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.service p {
+    font-size: 14px;
+    color: #666;
+}
+.portfolio-container {
+    max-width: 1200px;
+    margin: auto;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.underline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.underline div {
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    margin: 5px;
+}
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.categories span {
+    font-size: 14px;
+    cursor: pointer;
+    color: #333;
+}
+.categories .active {
+    color: red;
+    font-weight: bold;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+.portfolio-item {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.portfolio-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    background: #eee;
+    padding: 20px;
+    margin-top: 50px;
+}
+.stat {
+    font-size: 20px;
+    font-weight: bold;
+}
+.stat span {
+    display: block;
+    font-size: 14px;
+    color: #555;
+}
+.feedback-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+.feedback-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.feedback-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.feedback-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.feedback-text {
+    font-size: 14px;
+    color: #555;
+}
+.blog-section {
+text-align: center;
+padding: 50px 20px;
+background: #f9f9f9;
+}
+.blog-section h2 {
+font-size: 2em;
+margin-bottom: 20px;
+position: relative;
+}
+.blog-section h2::after {
+content: "";
+display: block;
+width: 50px;
+height: 3px;
+background: red;
+margin: 10px auto;
+}
+.blog-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+.blog-post {
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 300px;
+text-align: left;
+}
+.blog-post img,
+.blog-post iframe {
+width: 100%;
+border-radius: 10px;
+}
+.blog-post h3 {
+font-size: 1.2em;
+margin-top: 10px;
+}
+.blog-post p {
+font-size: 0.9em;
+color: #555;
+}
+.blog-post a {
+text-decoration: none;
+color: red;
+font-weight: bold;
+}
+.container {
+width: 50%;
+margin: 50px auto;
+}
+
+h2 {
+font-size: 32px;
+font-weight: bold;
+}
+
+.underline {
+width: 60px;
+height: 3px;
+background: red;
+margin: 5px auto 20px auto;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.input-group {
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+.input-group input {
+width: 48%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #000;
+border-radius: 5px;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #000;
+border-radius: 5px;
+}
+
+textarea {
+height: 120px;
+resize: none;
+}
+
+button {
+background: #ff3355;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+button:hover {
+background: #d92645;
+}
+
+footer {
+background: #333;
+color: white;
+padding: 15px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.highlight {
+color: red;
+}
